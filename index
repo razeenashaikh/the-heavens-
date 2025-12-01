@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Heavens - Ice Cream Brand</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f7e7ef;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #c17eff;
+            padding: 25px;
+            text-align: center;
+            color: white;
+            font-size: 32px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        /* Navigation */
+        nav {
+            background: #ffc2e2;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #a2005b;
+            margin: 0 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff4fa3;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://share.google/images/VH4A9qMJFw5bxgO7q') center/cover no-repeat;
+            height: 360px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-size: 45px;
+            font-weight: bold;
+            text-shadow: 2px 2px 10px #000;
+            padding: 10px;
+        }
+
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #ff4fa3;
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        /* Flavours Grid */
+        .flavours {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 230px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin-top: 12px;
+            color: #d1006c;
+        }
+
+        /* Footer */
+        footer {
+            background: #391827;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .hero {
+                font-size: 28px;
+                height: 280px;
+            }
+
+            .card {
+                width: 80%;
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <header>The Heavens Ice Cream</header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#flavours">Flavours</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        Taste the Happiness
+    </div>
+
+    <section class="section" id="flavours">
+        <h2>Our Best Flavours</h2>
+
+        <div class="flavours">
+            <div class="card">
+                <img src="https://share.google/images/NBOIQ07fyejOSrOFf" alt="Chocolate" />
+                <h3>Chocolate</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://share.google/images/82eVrpLPeSCd9XzUJ" alt="Strawberry" />
+                <h3>Strawberry</h3>
+            </div>
+
+            <div class="card">
+                <img src="https://share.google/images/fjURslEAKsbKnBfkr" alt="Vanilla" />
+                <h3>Vanilla</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="about">
+        <h2>About Us</h2>
+        <p>
+            We create premium, rich, creamy, and fresh ice creams made from pure natural ingredients.  
+            Our mission is to spread smiles and happiness with every scoop!
+        </p>
+    </section>
+
+    <section class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <strong>theheavensicecream.13@gmail.com</strong></p>
+        <p>Phone: <strong>+91 6359292555</strong></p>
+    </section>
+
+    <footer>© 2025 The Heavens Ice Cream. All Rights Reserved.</footer>
+
+</body>
+</html>
